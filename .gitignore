@@ -1,0 +1,16 @@
+# Kernel binaires
+kernel.elf
+kernel.iso
+kernel_noinit
+kernel_initcalls.S
+kernel_initcalls.o
+
+# Build artifacts
+*.c.o
+*.S.o
+*.s.o
+*.ld
+
+# Build subdirectories
+/.vscode/
+/root/
